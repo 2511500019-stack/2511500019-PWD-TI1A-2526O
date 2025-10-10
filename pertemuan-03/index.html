@@ -4,10 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Nicolas</title>
+    <style>
+       #about {
+        background-color: rgb(249, 245, 248);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(13, 1, 245, 0.402);
+        margin-bottom: 20px;
+        max-width: 700px;
+            }
+
+            #about h2 {
+                color: rgba(220, 199, 199, 0.84);
+                margin-bottom: 10px;
+                text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+                border-bottom: 2px solid #000000;
+                padding-bottom: 5px;
+                margin-top: 20px;
+            }
+            #about strong {
+                min-width: 180px;
+                color: #1e06db;
+                font-weight: 600;
+                text-align: right;
+                padding-right: 16px;
+                flex-shrink: 0;
+            }
+            @media (max-width: 600px) {
+                #about p {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }       
+                #about strong {
+                    text-align: left;
+                    padding-right: 0px;
+                    margin-bottom: 2px;
+                }
+            }
+
+.shadow-dance-text {
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 5px 5px 0 #ff005e, 10px 10px 0 #00d4ff;
+    animation: shadow-dance 2s infinite;
+}
+
+@keyframes shadow-dance {
+    0%, 100% {
+        text-shadow: 5px 5px 0 #ff005e, 10px 10px 0 #00d4ff;
+    }
+    50% {
+        text-shadow: -5px -5px 0 #00d4ff, -10px -10px 0 #ff005e;
+    }
+}
+
+       /* Rainbow Glow Animation for Header */
+       .rainbow-glow {
+           font-size: 3.5rem;
+           font-weight: bold;
+           background: linear-gradient(90deg, #ff005e, #fffb00, #00ff85, #00d4ff, #ff00c8, #ff005e);
+           background-size: 400% 400%;
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+           text-shadow:
+               0 0 10px #ff005e,
+               0 0 20px #fffb00,
+               0 0 30px #00ff85,
+               0 0 40px #00d4ff,
+               0 0 50px #ff00c8;
+           animation: rainbowGlow 2.5s linear infinite;
+           transition: text-shadow 0.3s;
+       }
+       @keyframes rainbowGlow {
+           0% {
+               background-position: 0% 50%;
+           }
+           50% {
+               background-position: 100% 50%;
+           }
+           100% {
+               background-position: 0% 50%;
+           }
+       }
+
+</style>
+<body>
+<header>
+    <div class="wave-container">
+        <h1 class="rainbow-glow">HEADER</h1>
+    </div>
+
+<nav>
+    <ul>
+        <li><a href="#home">beranda</a></li>
+        <li><a href="#about">tentang</a></li>
+        <li><a href="#contact">kontak</a></li>
+    </ul>
+</nav>
+</header>
+<main>
+  <section id="home">
+
+    <div class="shadow-dance-container">
+    <h1 class="shadow-dance-text">selamat datang &#128516</h1>
+</div>
+
+    <p>contoh paragraf HTML</p>
+</section>
+<section id="about">
 </head>
 <body> 
     <header>
-        <h1>Ini Header&#1285121;</h1>
+        <h1>Header&#1285121;</h1>
         <nav>
             <ul>
                 <li><a href="#contact">Kontak</a></li>
