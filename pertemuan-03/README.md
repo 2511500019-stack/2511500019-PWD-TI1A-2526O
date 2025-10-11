@@ -13,5 +13,5 @@ Hari ini,Rabu 08 Oktober 2025,saya belajar:
     <li>membuat styling untuk selector ID #about elemen strong</li>
     <li>membuat Shadow dance di bagian tulisan selamat datang</li>
     <li>membuat styling untuk selector ID #about mode responsif (mobile)</li>
-    <li>menambaahkan about buaat merapiksn label form</li>
+    <li>menambaahkan about buaat merapiksn label form beserta mengganti fond agar terlihat bagus</li>
 </ol>
