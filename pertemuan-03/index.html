@@ -5,6 +5,58 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Nicolas</title>
     <style>
+
+    #about body {
+        font-family: Arial, sans-serif;
+        background-color: firebrick;
+        padding: 20px;
+    }
+    .form-container {
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      margin: auto;
+    }
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .buttons {
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .buttons button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .buttons button[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .buttons button[type="reset"] {
+      background-color: #f44336;
+      color: white;
+    }
        #about {
         background-color: rgb(249, 245, 248);
         padding: 20px;
