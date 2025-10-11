@@ -19,6 +19,22 @@
       max-width: 500px;
       margin: auto;
     }
+    h2 {
+      color: #d19ca0;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+      font-weight: bold;
+    }
+     input[type="text"],
     input[type="email"],
     textarea {
       width: 100%;
@@ -34,30 +50,29 @@
       min-height: 100px;
     }
 
-    .buttons {
+.form-buttons {
       margin-top: 15px;
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
+      gap: 10px;
     }
 
-    .buttons button {
+    button {
       padding: 10px 20px;
+      font-size: 14px;
       border: none;
       border-radius: 5px;
-      font-size: 14px;
       cursor: pointer;
     }
-
-    .buttons button[type="submit"] {
+    .submit-btn {
       background-color: #4CAF50;
       color: white;
     }
 
-    .buttons button[type="reset"] {
+    .reset-btn {
       background-color: #f44336;
       color: white;
     }
-    
        #about {
         background-color: rgb(249, 245, 248);
         padding: 20px;
