@@ -13,4 +13,6 @@ Hari ini,Rabu 08 Oktober 2025,saya belajar:
     <li>membuat styling untuk selector ID #about elemen strong</li>
     <li>membuat styling untuk selector ID #about mode responsif (mobile)</li>
     <li>menambaahkan about buaat merapiksn label form beserta mengganti fond agar terlihat bagus</li>
+    <li>menambahkan span di ID #about</li>
+    <li>mengganti found di ID #about element body arial , sans serif agar lebih terlihat menarik </li>
 </ol>
