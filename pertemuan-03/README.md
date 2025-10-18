@@ -17,4 +17,5 @@ Hari ini,Rabu 08 Oktober 2025,saya belajar:
     <li>mengganti found di ID #about element body arial , sans serif agar lebih terlihat menarik </li>
     <li>menstayling warna dalam about dan contact agar terlihat menarik</li>
     <li>menambahkan styling di bagian header </li>
+    <li>menambahkan styling footer hover focus dan active</li>
 </ol>
