@@ -18,4 +18,5 @@ Hari ini,Rabu 08 Oktober 2025,saya belajar:
     <li>menstayling warna dalam about dan contact agar terlihat menarik</li>
     <li>menambahkan styling di bagian header </li>
     <li>menambahkan styling footer hover focus dan active</li>
+    <li>merapikan header</li>
 </ol>
