@@ -31,8 +31,15 @@
       <p>Halo, Selamat datang di website saya</p>
     </section>
     <section id="about">
+      <?php
+    $nim  = "2511500019"
+    $NIM  = "2511500019"
+      ?>
       <h2>Tentang Saya &hearts;</h2>
-                    <p><strong>NIM:</strong>2511500019</p>
+                    <p><strong>NIM:</strong>
+                    <?php
+                    echo $nim?>
+                    </p>
                     <p><strong>Nama Lengkap:</strong>Nicolas Kalim &#128526;</p>
                     <p><strong>Tempat Lahir:</strong>Pangkal Pinang</p>
                     <p><strong>Tanggal Lahir:</strong>19 Juli 2007</p>
