@@ -27,7 +27,7 @@
       <h2>Selamat Datang</h2>
       <?php
     echo "hallo Dunia!"
-    echo "Nama Saya Nicolas Kalim"
+    echo "nama saya Nicolas Kalim"
 ?>
       <p>Halo, Selamat datang di website saya</p>
     </section>
