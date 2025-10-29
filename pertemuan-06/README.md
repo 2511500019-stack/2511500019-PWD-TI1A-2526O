@@ -6,4 +6,5 @@ NIM: 2511500019
 Belajar:
 <ol>
 <li>Hello.php</li>
+<li>index.php</li>
 </ol>
