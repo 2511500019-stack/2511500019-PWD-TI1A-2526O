@@ -38,7 +38,8 @@
       <h2>Tentang Saya &hearts;</h2>
                     <p><strong>NIM:</strong>
                     <?php
-                    echo $nim?>
+                    echo $nim;
+                    ?>
                     </p>
                     <p><strong>Nama Lengkap:</strong>Nicolas Kalim &#128526;</p>
                     <p><strong>Tempat Lahir:</strong>Pangkal Pinang</p>
