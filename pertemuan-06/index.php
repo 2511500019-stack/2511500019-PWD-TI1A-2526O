@@ -38,7 +38,7 @@
       <h2>Tentang Saya &hearts;</h2>
                     <p><strong>NIM:</strong>
                     <?php
-                    echo $nim;
+                    echo $NIM;
                     ?>
                     </p>
                     <p><strong>Nama Lengkap:</strong>Nicolas Kalim &#128526;</p>
