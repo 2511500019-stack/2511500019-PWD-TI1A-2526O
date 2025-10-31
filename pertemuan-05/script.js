@@ -203,3 +203,18 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+
+const menuToggle = document.getElementById("menuToggle");
+
+if (menuToggle) {
+    menuToggle.addEventListener("click", function () {
+        const nav = document.querySelector("nav");
+        nav.classList.toggle("active");
+
+        if (nav.classList.contains("active")) {
+            this.textContent = "\u2716"; // tanda silang
+        } else {
+            this.textContent = "\u2630"; // tanda tiga garis
+        }
+    });
+}
