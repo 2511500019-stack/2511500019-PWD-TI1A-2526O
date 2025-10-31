@@ -1,15 +1,4 @@
-document.querySelector("form").addEventListener("submit", function (e) {
-    const nama = document.getElementById("txtNama").value.trim();
-    const email = document.getElementById("txtEmail").value.trim();
-    const pesan = document.getElementById("txtPesan").value.trim();
-
-    if (nama === "" || email === "" || pesan === "") {
-        alert("Semua kolom wajib diisi!");
-        e.preventDefault();
-    } else {
-        alert("Terima kasih, " + nama + "!\nPesan anda telah dikirim.");
-    }
-});
+// Combined and improved submit handling is implemented further down.
 
 document.getElementById("menuToggle").addEventListener("click", function () {
     const nav = document.querySelector("nav");
@@ -32,7 +21,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
 
     let isValid = true;
 
-    if (nama.Value.trim().length < 3) {
+    if (nama.value.trim().length < 3) {
         showError(nama, "Nama minimal 3 huruf dan tidak boleh kosong.");
         isValid = false;
     } else if (!/^[A-Za-z\s]+$/.test(nama.value)) {
@@ -119,6 +108,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const ucapan = document.createElement("p");
     ucapan.textContent = "Halo! Selamat datang di halaman saya!";
     homeSection.appendChild(ucapan);
+    // counter needs to be available to both setup and responsive functions
+    let counter;
 
     function setupCharCountLayout() {
         const label = document.querySelector('label[for="txtPesan"]');
@@ -127,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
         let wrapper =label.querySelector('[data-wrapper="pesan-wrapper"]');
         const span = label.querySelector('span');
         const textarea = document.getElementById('txtPesan');
-        const counter = document.getElementById('charCount');
+        counter = document.getElementById('charCount');
         if (!span || !textarea || !counter) return;
 
         if (!wrapper) {
@@ -136,7 +127,8 @@ document.addEventListener("DOMContentLoaded", function () {
             wrapper.style.width = '100%';
             wrapper.style.flex = '1';
             wrapper.style.display = 'flex';
-            wrapper.style.justifyContent = 'column';
+            // use flexDirection for column layout
+            wrapper.style.flexDirection = 'column';
 
             label.insertBefore(wrapper, textarea);
             wrapper.appendChild(textarea);
@@ -201,9 +193,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener('resize', applyResponsiveLayout);
 
-});
+    // Attach input listener now that textarea and counter are known
+    const textareaEl = document.getElementById("txtPesan");
+    if (textareaEl && counter) {
+        textareaEl.addEventListener("input", function () {
+            const panjang = this.value.length;
+            counter.textContent = panjang + "/200 karakter";
+        });
+    }
 
-document.getElementById("txtPesan").addEventListener("input", function () {
-    const panjang = this.value.length;
-    document.getElementById("charCount").textContent = panjang + "/200 karakter";
 });

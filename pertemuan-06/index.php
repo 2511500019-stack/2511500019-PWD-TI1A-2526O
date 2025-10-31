@@ -32,7 +32,7 @@
     </section>
     <section id="about">
       <?php
-    $nim  = "2511500019":
+    $nim  = "2511500019";
     $NIM  = "2511500019";
       ?>
       <h2>Tentang Saya &hearts;</h2>
