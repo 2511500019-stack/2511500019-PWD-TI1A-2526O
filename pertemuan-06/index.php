@@ -26,56 +26,96 @@
     <section id="home">
       <h2>Selamat Datang</h2>
       <?php
-    echo "hallo Dunia!","nama saya Nicolas Kalim"
+    echo "Hallo dunia";
+    echo "Perkenalkan nama saya Nicolas Kalim";
+
 ?>
-      <p>Halo, Selamat datang di website saya</p>
     </section>
     <section id="about">
       <?php
-    $nim  = "2511500019";
-    $NIM  = "2511500019";
+    $Nim  = "2511500019";
+    $Nama = "Nicolas Kalim";
+    $TempatLahir = "Pangkalpinang";
+    $TanggalLahir = "19 Juli 2007";
+    $Hobi = "Main Basket";
+    $Pasangan = "Tidak Ada";
+    $Pekerjaan = "Pelajar";
+    $NamaOrangTua = "Hendra Sanjaya Dan Maryal";
+    $NamaKakak = "Klarisa yonika";
+    $NamaAdik = "Christiano Ronaldo";
+    ?>
+
+    <h2>Tentang Saya</h2>
+      <p><strong>Nim:</strong>
+      <?php
+        echo $Nim;
       ?>
-      <h2>Tentang Saya &hearts;</h2>
-                    <p><strong>NIM:</strong>
-                    <?php
-                    echo $NIM;
-                    ?>
-                    </p>
-                    <p><strong>Nama Lengkap:</strong>Nicolas Kalim &#128526;</p>
-                    <p><strong>Tempat Lahir:</strong>Pangkal Pinang</p>
-                    <p><strong>Tanggal Lahir:</strong>19 Juli 2007</p>
-                    <p><strong>Hobi:</strong>Bermain Basket,Futsal</p>
-                    <p><strong>Pasangan:</strong>Belum Ada</p>
-                    <p><strong>Pekerjaan:</strong>Mahasiswa</p>
-                    <p><strong>Nama Orang Tua:</strong>Bapak Hendra Ibu Maryali</p>
-                    <p><strong>Nama kakak:</strong>Klarisa Yonika</p>
-                    <p><strong>Nama Adik:</strong>Christiano Ronaldo</p>
-    </section>
-    <section id="contact">
-      <h2>Kontak Saya</h2>
-      <form action="" method="GET">
-        <input type="color">
-        <label for="txtNama"><span>Nama:</span>
-          <input maxlength="10" type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required
-            autocomplete="name">
-        </label>
+      </p>
+      <p><strong>Nama:</strong>
+      <?php
+        echo $Nama;   
+      ?>
+      </p>    
+      <p><strong>Tempat, Tanggal Lahir:</strong>
+      <?php
+        echo $TempatLahir . ", " . $TanggalLahir;
+      ?>
+      </p>
+      <p><strong>Hobi:</strong>
+      <?php
+        echo $Hobi;
+      ?>
+      </p>
+      <p><strong>Pasangan:</strong>
+      <?php
+        echo $Pasangan;
+      ?>
+      </p>
+      <p><strong>Pekerjaan:</strong>
+      <?php
+        echo $Pekerjaan;
+      ?>
+      </p>
+      <p><strong>Nama Orang Tua:</strong>
+      <?php
+        echo $NamaOrangTua;
+      ?>
+      </p>
+      <p><strong>Nama Kakak:</strong>
+      <?php
+        echo $NamaKakak;
+      ?>
+      </p>
+      <p><strong>Nama Adik:</strong>
+      <?php
+        echo $NamaAdik;
+      ?>
+      </p>
+</section>
+        <section id="contact">
+            <h2>Kontak Saya</h2>
+            <form action="" method="GET">
+                <input type="color">
+                <label for="txtNama"><span>Nama:</span>
+                    <input maxlength="10" type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
+                </label>    
 
-        <label for="txtEmail"><span>Email:</span>
-          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
-        </label>
+                <label for="txtEmail"><span>Email:</span>
+                     <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
+                </label>
 
-        <label for="txtPesan"><span>Pesan:</span>
-          <textarea rows="4" id="txtPesan" name="txtPesan" placeholder="Tulis pesan anda..." required></textarea>
-        </label>
-        <button type="submit">Kirim</button>
-        <button type="reset">Batal</button>
-      </form>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; Nicolas Kalim 08385984171</p>
-  </footer>
-  <script src="script.js"></script>
+                <label for="txtPesan"><span>Pesan:</span>
+                     <textarea rows="4" id="txtPesan" name="txtPesan" placeholder="Tulis pesan anda..." required></textarea>
+                     <small id="charCount">0/200 karakter</small>
+                </label>
+                <button type="submit">Kirim</button>
+                <button type="reset">Batal</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Nicolas Kalim [2511500019]</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
-
 </html>
