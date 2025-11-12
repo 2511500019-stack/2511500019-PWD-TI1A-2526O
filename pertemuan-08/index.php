@@ -133,35 +133,35 @@ endif;
     </label>
 
     <label for="txttempatLahir"><span>Tempat Lahir:</span>
-    <input type="text" id="tempatLahir" name="tempatLahir" placeholder="Masukkan tempat lahir"> required autocomplete="TempatLahir">
+    <input type="text" id="tempatLahir" name="tempatLahir" placeholder="Masukkan tempat lahir"> 
     </label>
 
     <label for="txttanggalLahir"><span>Tanggal Lahir:</span>
-    <input type="date" id="tanggalLahir" name="tanggalLahir"> placeholder="Masukkan tanggal lahir" required autocomplete="TanggalLahir">
+    <input type="date" id="tanggalLahir" name="tanggalLahir"> 
     </label>
 
     <label for="txthobi"><span>Hobi:</span>
-    <input type="text" id="hobi" name="hobi" placeholder="Masukkan hobi"> required autocomplete="Hobi">
+    <input type="text" id="hobi" name="hobi" placeholder="Masukkan hobi"> 
     </label>
 
     <label for="txtpasangan"><span>Pasangan:</span>
-    <input type="text" id="pasangan" name="pasangan" placeholder="Nama pasangan"> required autocomplete="Pasangan">
+    <input type="text" id="pasangan" name="pasangan" placeholder="Nama pasangan"> 
     </label>
 
     <label for="txtpekerjaan"><span>Pekerjaan:</span>
-    <input type="text" id="pekerjaan" name="pekerjaan" placeholder="Masukkan pekerjaan"> required autocomplete="Pekerjaan">
+    <input type="text" id="pekerjaan" name="pekerjaan" placeholder="Masukkan pekerjaan"> 
     </label>
 
     <label for="txtorangTua"><span>Nama Orang Tua:</span>
-    <input type="text" id="orangTua" name="orangTua" placeholder="Masukkan nama orang tua"> required autocomplete="NamaOrangTua">
+    <input type="text" id="orangTua" name="orangTua" placeholder="Masukkan nama orang tua"> 
     </label>
 
     <label for="txtkakak"><span>Nama Kakak:</span>
-    <input type="text" id="kakak" name="kakak" placeholder="Masukkan nama kakak"> required autocomplete="NamaKakak">
+    <input type="text" id="kakak" name="kakak" placeholder="Masukkan nama kakak"> 
     </label>
 
     <label for="txtadik"><span>Nama Adik:</span>
-    <input type="text" id="adik" name="adik" placeholder="Masukkan nama adik"> required autocomplete="NamaAdik">
+    <input type="text" id="adik" name="adik" placeholder="Masukkan nama adik"> 
     </label>
     
         <button type="submit">Kirim</button>
