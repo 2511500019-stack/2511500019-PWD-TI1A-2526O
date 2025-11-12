@@ -8,5 +8,5 @@ Kelompok: TI1A<br>
 <br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
-  <li> menambahkan p dengan judul pendaftaran profil pengunjung</li>
+  <li> menambahkan  dengan judul pendaftaran profil pengunjung</li>
 </ol>
