@@ -122,6 +122,7 @@ endif;
         <p><strong>kakak :</strong> <?php echo $sesnamakakak ?></p>
         <p><strong>adik :</strong> <?php echo $sesnamaadik ?></p>
       <?php endif; ?>
+      
 
 
 
