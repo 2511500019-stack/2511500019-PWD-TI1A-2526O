@@ -141,7 +141,7 @@ endif;
       <p><strong>Hobi:</strong> Bermain basket </p>
       <p><strong>Pasangan:</strong> - </p>
       <p><strong>Pekerjaan:</strong> Mahasiswa</p>
-      <p><strong>Nama Orang Tua:</strong> Ayah Hendra sanjaya dan Maryali</p>
+      <p><strong>Nama Orang Tua:</strong> Ayah Hendra sanjaya dan mama Maryali</p>
       <p><strong>Nama Kakak:</strong> Klarisa yonika</p>
       <p><strong>Nama Adik:</strong> Christiano Ronaldo</p>
     </section>
