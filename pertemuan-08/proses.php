@@ -26,5 +26,18 @@ session_start();
     $sesorangtua = $_SESSION["orangTua"]; 
     $seskakak = $_SESSION["kakak"]; 
     $sesadik = $_SESSION["adik"]; 
+    $_SESSION["sesnama"] = $sesnama;
+$_SESSION["sesemail"] = $sesemail;
+$_SESSION["sespesan"] = $sespesan;
+$_SESSION["sesnim"] = $sesnim;
+$_SESSION["sesnamalengkap"] = $sesnamalengkap;
+$_SESSION["sestempatlahir"] = $sestempatlahir;
+$_SESSION["sestanggallahir"] = $sestanggallahir;
+$_SESSION["seshobi"] = $seshobi;
+$_SESSION["sespasangan"] = $sespasangan;
+$_SESSION["sespekerjaan"] = $sespekerjaan;
+$_SESSION["sesnamaorangtua"] = $sesnamaorangtua;
+$_SESSION["sesnamakakak"] = $sesnamakakak;
+$_SESSION["sesnamaadik"] = $sesnamaadik;
 ?>
 
