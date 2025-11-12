@@ -69,7 +69,7 @@ endif;
         </label>
 
       <label for="txtTanggal Lahir"><span>Tanggal Lahir:</span>
-          <input type="text" id="txtTanggal Lahir" name="txtTanggal Lahir" placeholder="Masukkan Tanggal Lahir" required autocomplete="tanggal lahir">
+          <input type="date" id="txtTanggal Lahir" name="txtTanggal Lahir" placeholder="Masukkan Tanggal Lahir" required autocomplete="tanggal lahir">
         </label>
 
         <label for="txtHobi"><span>Hobi:</span>
