@@ -42,7 +42,7 @@ endif;
     </nav>
   </header>
 
-<section id="contact">
+<section id="Pendaftaran Profil Pengunjung">
       <h2> Pendaftaran Profil Pengunjung</h2>
       <form action="proses.php" method="POST">
 
