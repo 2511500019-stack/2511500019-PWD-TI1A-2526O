@@ -119,10 +119,10 @@ endif;
 
     <section id="about">
       <?php
-      $nim = 2511500015;
-      $NIM = '2511500015';
-      $nama = "Moh. Sayyid Abraar";
-      $Nama = 'Abraar';
+      $nim = 2511500019;
+      $NIM = '2511500019';
+      $nama = "Nicolas Kalim";
+      $Nama = 'Nicolas Kalim';
       $tempat = "Selindung";
       ?>
       <h2>Tentang Saya</h2>
@@ -136,14 +136,14 @@ endif;
         echo $nama;
         ?> &#128526;
       </p>
-      <p><strong>Tempat Lahir:</strong> Sungailiat</p>
-      <p><strong>Tanggal Lahir:</strong> 26 Januari 2007</p>
-      <p><strong>Hobi:</strong> Bermain game dan membaca novel </p>
-      <p><strong>Pasangan:</strong> Karinia Dwi Indah Suryani &#128525;&hearts;</p>
+      <p><strong>Tempat Lahir:</strong> Pangkalpinang</p>
+      <p><strong>Tanggal Lahir:</strong> 19 Juli 2007</p>
+      <p><strong>Hobi:</strong> Bermain basket </p>
+      <p><strong>Pasangan:</strong> - </p>
       <p><strong>Pekerjaan:</strong> Mahasiswa</p>
-      <p><strong>Nama Orang Tua:</strong> Bapak Suhidin dan Ibu Affika Kushana</p>
-      <p><strong>Nama Kakak:</strong> <?php echo $sespesan ?></p>
-      <p><strong>Nama Adik:</strong> Moch. Faaiq Al-Tsaqiif</p>
+      <p><strong>Nama Orang Tua:</strong> Ayah Hendra sanjaya dan Maryali</p>
+      <p><strong>Nama Kakak:</strong> Klarisa yonika</p>
+      <p><strong>Nama Adik:</strong> Christiano Ronaldo</p>
     </section>
 
     <section id="contact">
@@ -183,7 +183,7 @@ endif;
   </main>
 
   <footer>
-    <p>&copy; 2025 Moh. Sayyid Abraar [2511500015]</p>
+    <p>&copy; Nicolas Kalim [2511500019]</p>
   </footer>
 
   <script src="script.js"></script>
