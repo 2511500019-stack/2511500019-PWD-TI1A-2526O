@@ -46,11 +46,7 @@ endif;
       <h2> Pendaftaran Profil Pengunjung</h2>
       <form action="proses.php" method="POST">
 
-      </section>
-
-    <section id="contact">
-      <h2> Pendaftaran Profil Pengunjung</h2>
-      <form action="proses.php" method="POST">
+      
 
       <label for="txtnim"><span>NIM:</span>
           <input type="text" id="txtnim" name="txtnim" placeholder="Masukkan NIM" required autocomplete="nim">
