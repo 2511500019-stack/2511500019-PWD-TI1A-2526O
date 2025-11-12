@@ -111,9 +111,16 @@ endif;
       <?php if (!empty($sesnama)): ?>
         <br><hr>
         <h2>Yang menghubungi kami</h2>
-        <p><strong>Nama :</strong> <?php echo $sesnama ?></p>
-        <p><strong>Email :</strong> <?php echo $sesemail ?></p>
-        <p><strong>Pesan :</strong> <?php echo $sespesan ?></p>
+        <p><strong>Nim :</strong> <?php echo $sesnim ?></p>
+        <p><strong>NamaLengkap :</strong> <?php echo $sesnamalengkap ?></p>
+        <p><strong>tempatlahir :</strong> <?php echo $tempatlahir ?></p>
+        <p><strong>tanggallahir :</strong> <?php echo $sestanggallahir ?></p>
+        <p><strong>hobi :</strong> <?php echo $seshobi ?></p>
+        <p><strong>pasangan :</strong> <?php echo $sespasangan ?></p>
+        <p><strong>pekerjaan :</strong> <?php echo $sespekerjaan ?></p>
+        <p><strong>orangtua :</strong> <?php echo $sesnamaorangtua ?></p>
+        <p><strong>kakak :</strong> <?php echo $sesnamakakak ?></p>
+        <p><strong>adik :</strong> <?php echo $sesnamaadik ?></p>
       <?php endif; ?>
 
 
