@@ -10,4 +10,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li> menambahkan  dengan judul pendaftaran profil pengunjung </li>
   <li> melanjutkan menambahkan data dan tombol kirim dan batal </li>
+  <li> menambahkan kode di php dan section about </li>
 </ol>
