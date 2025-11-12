@@ -13,4 +13,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li> menambahkan kode di php dan section about </li>
   <li> menambahkan pdp indif echonya </li?>
   <li> melengkapkan css dengan contact Pendaftaran Profil Pengunjung </li>
+  <li> js Submit ganti reset </li>
 </ol>
