@@ -7,4 +7,5 @@
 <li>membuat tabel dalam data base sql </li>
 <li>menambahkan dan menambahkan data pada read php</li>
 <li>mengisi cid nama cemail dan pesan pada php admin</li>
+<li>membuat create dan insert</li>
 </ol>
