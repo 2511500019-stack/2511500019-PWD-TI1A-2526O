@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = "";
-$db = "biodata";        
+$db = "db_pwd2025";        
 
 $conn = mysqli_connect($host, $user, $pass, $db);
 
