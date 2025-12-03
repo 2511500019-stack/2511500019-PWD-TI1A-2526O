@@ -4,16 +4,14 @@ require_once "koneksi.php";
 $sql = "SELECT * FROM tbl_tamu ORDER BY id DESC";
 $q = mysqli_query($conn, $sql);
 ?>
-<table border="1" cellpadding="10" cellspacing="0">
-  <thead>
+<table border="1" cellpadding="8" cellspacing="0">
     <tr>
       <th>ID</th>
       <th>Nama</th>
       <th>Email</th>
       <th>Pesan</th>
     </tr>
-  </thead>
-  <tbody>
+  
     <?php while ($row = mysqli_fetch_assoc($q)) : ?>
       <tr>
         <td><?php echo htmlspecialchars($row['id']); ?></td>
