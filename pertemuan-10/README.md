@@ -10,4 +10,5 @@
 <li>membuat create dan insert</li>
 <li>mengcoppy read php dan mengubah sedikit kode di read inc php</li>
 <li>mengubah index php sedikit pada baris 146 saja </li>
+<li>mengHapus baris 133-141 karena kalian sudah tidak membutuhkannya lagi </li>
 </ol>
