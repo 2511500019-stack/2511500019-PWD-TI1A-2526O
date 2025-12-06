@@ -9,4 +9,5 @@
 <li>mengisi cid nama cemail dan pesan pada php admin</li>
 <li>membuat create dan insert</li>
 <li>mengcoppy read php dan mengubah sedikit kode di read inc php</li>
+<li>mengubah index php sedikit pada baris 146 saja </li>
 </ol>
