@@ -33,7 +33,7 @@ require_once __DIR__ . '/fungsi.php';
       <h2>Selamat Datang</h2>
       <?php
       echo "halo dunia!<br>";
-      echo "nama saya hadi";
+      echo "nama saya abraar";
       ?>
       <p>Ini contoh paragraf HTML.</p>
     </section>
@@ -110,52 +110,57 @@ require_once __DIR__ . '/fungsi.php';
     </section>
 
     <?php
-    $flash_success = $_SESSION['flash_success'] ?? '';
+    $flash_sukses = $_SESSION['flash_sukses'] ?? '';
     $flash_error = $_SESSION['flash_error'] ?? '';
     $old = $_SESSION['old'] ?? [];
 
-    unset($_SESSION['flash_success'], $_SESSION['flash_error'], $_SESSION['old']);
+    unset($_SESSION['flash_sukses'], $_SESSION['flash_error'], $_SESSION['old']);
     ?>
 
     <section id="contact">
-        <h2>kontak kami</h2>
-
-        <?php if (!empty($flash_success)): ?>
-          <div style="padding: 10px; margin-bottom: 10px; border: 1px solid green; background-color: #e0ffe0; color: green;">
-            <?= htmlspecialchars($flash_success); ?>
-            </div>
-        <?php endif; ?> 
-
-        <?php if (!empty($flash_error)): ?>
-          <div style="padding: 10px; margin-bottom: 10px; border: 1px solid red; background-color: #ffe0e0; color: red;">
-            <?= htmlspecialchars($flash_error); ?>
-            </div>
-
-    <section id="contact">
       <h2>Kontak Kami</h2>
+
+      <?php if (!empty($flash_sukses)) : ?>
+        <div style="padding:10px; margin-bottom:10px; background:#d4edda; color;#155724; border-radius:6px;">
+          <?= $flash_sukses; ?>
+        </div>
+      <?php endif; ?>
+
+      <?php if (!empty($flash_error)) : ?>
+        <div style="padding:10px; margin-bottom:10px; background:#f8d7da; color:#721c24; border-radius:6px;">
+          <?= $flash_error; ?>
+        </div>
+      <?php endif; ?>
+
       <form action="proses.php" method="POST">
 
-        <lable for="txtNama"><span>Nama:</span>
-          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan Nama" 
-          required autocomplete="name"
-          value="<?= isset($old['nama']) htmlspecialchars($old['Nama'] ?? '') : '' ?>">
-        </lable>
-
-        <label for="txtEmail"><span>Email:</span>
-          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan Email" 
-          required autocomplete="email"
-          value="<?= isset($old['email']) ? htmlspecialchars($old['email'] ?? '') : '' ?>">
+        <label for="txtNama"><span>Nama:</span>
+          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" 
+            required autocomplete="name"
+            value="<?= isset($old['nama']) ? htmlspecialchars($old['nama']) : '' ?>">
         </label>
 
-        <lable for="txtPesan"><span>Pesan:</span>
-         <textarea id="txtPesan" name="txtPesan"  rows="4" placeholder="Tuliskan Pesan Anda..." 
-            required><?= isset($old['pesan']) ? htmlspecialchars($old['pesan'] ?? '') : '' ?></textera>
-            <small id="charCount">0/200 karakter</small>
-        </lable>
+        <label for="txtEmail"><span>Email:</span>
+          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" 
+            required autocomplete="email"
+            value="<?= isset($old['email']) ? htmlspecialchars($old['email']) : '' ?>">
+        </label>
+
+        <label for="txtPesan"><span>Pesan Anda:</span>
+          <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." 
+            required><?= isset($old['pesan']) ? htmlspecialchars($old['pesan']) : '' ?></textarea>
+          <small id="charCount">0/200 karakter</small>
+        </label>
+
+        <label for="txtCaptcha_Sederhana"><span>2+3?:</span>
+          <input type="text" id="txtCaptcha_Sederhana" name="txtCaptcha_Sederhana" placeholder="Masukkan jawaban" 
+            required autocomplete="captcha_sederhana"
+            value="<?= isset($old['captcha']) ? htmlspecialchars($old['captcha']) : '' ?>">
+        </label>
 
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
-        </form>
+      </form>
 
       <br>
       <hr>
@@ -165,11 +170,10 @@ require_once __DIR__ . '/fungsi.php';
   </main>
 
   <footer>
-    <p>&copy; 2025 Nicolas kalim [2511500019]</p>
+    <p>&copy; 2025 Moh. Sayyid Abraar [2511500015]</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
 
 </html>
-
