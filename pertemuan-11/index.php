@@ -1,7 +1,8 @@
 <?php
 session_start();
 require_once __DIR__ . '/fungsi.php';
-?>
+include 'read_inc.php';
+?>  
 
 <!DOCTYPE html>
 <html lang="en">
@@ -112,7 +113,7 @@ require_once __DIR__ . '/fungsi.php';
         } else {
           echo "<p>Belum ada data biodata yang disimpan.</p>";
         }
-        ?>
+        ?>  
     </section>
 
     <?php
