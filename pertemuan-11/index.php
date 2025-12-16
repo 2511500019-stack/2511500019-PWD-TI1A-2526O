@@ -138,7 +138,7 @@ require_once __DIR__ . '/fungsi.php';
         <lable for="txtNama"><span>Nama:</span>
           <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan Nama" 
           required autocomplete="name"
-          value="<?= isset($old{'nama'}) htmlspecialchars($old['Nama'] ?? '') : '' ?>">
+          value="<?= isset($old['nama']) htmlspecialchars($old['Nama'] ?? '') : '' ?>">
         </lable>
 
         <label for="txtEmail"><span>Email:</span>
