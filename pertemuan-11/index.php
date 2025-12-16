@@ -1,7 +1,6 @@
 <?php
 session_start();
 require_once __DIR__ . '/fungsi.php';
-include 'read_inc.php';
 ?>  
 
 <!DOCTYPE html>
