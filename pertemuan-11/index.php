@@ -144,12 +144,12 @@ require_once __DIR__ . '/fungsi.php';
         <label for="txtEmail"><span>Email:</span>
           <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan Email" 
           required autocomplete="email"
-          value="<?= isset($old{'email'}) ? htmlspecialchars($old['email'] ?? '') : '' ?>">
+          value="<?= isset($old['email']) ? htmlspecialchars($old['email'] ?? '') : '' ?>">
         </label>
 
         <lable for="txtPesan"><span>Pesan:</span>
-         <textera id="txtPesan" name="txtPesan"  rows="4" placeholder="Tuliskan Pesan Anda..." 
-            required><?= isset($old{'pesan'}) ? htmlspecialchars($old['pesan'] ?? '') : '' ?></textera>
+         <textarea id="txtPesan" name="txtPesan"  rows="4" placeholder="Tuliskan Pesan Anda..." 
+            required><?= isset($old['pesan']) ? htmlspecialchars($old['pesan'] ?? '') : '' ?></textera>
             <small id="charCount">0/200 karakter</small>
         </lable>
 
