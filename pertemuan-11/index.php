@@ -138,18 +138,18 @@ require_once __DIR__ . '/fungsi.php';
         <lable for="txtNama"><span>Nama:</span>
           <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan Nama" 
           required autocomplete="name"
-          value="<?= isset($old{'nama'}) htmlspecialchars($old['Nama'] ?? '') : '': ?>">
+          value="<?= isset($old{'nama'}) htmlspecialchars($old['Nama'] ?? '') : '' ?>">
         </lable>
 
         <label for="txtEmail"><span>Email:</span>
           <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan Email" 
           required autocomplete="email"
-          value="<?= isset($old{'email'}) ? htmlspecialchars($old['email'] ?? '') : '': ?>">
+          value="<?= isset($old{'email'}) ? htmlspecialchars($old['email'] ?? '') : '' ?>">
         </label>
 
         <lable for="txtPesan"><span>Pesan:</span>
          <textera id="txtPesan" name="txtPesan"  rows="4" placeholder="Tuliskan Pesan Anda..." 
-            required><?= isset($old{'pesan'}) ? htmlspecialchars($old['pesan'] ?? '') : '': ?></textera>
+            required><?= isset($old{'pesan'}) ? htmlspecialchars($old['pesan'] ?? '') : '' ?></textera>
             <small id="charCount">0/200 karakter</small>
         </lable>
 
