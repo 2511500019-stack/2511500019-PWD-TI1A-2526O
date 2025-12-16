@@ -106,7 +106,13 @@ require_once __DIR__ . '/fungsi.php';
 
     <section id="about">
       <h2>Tentang Saya</h2>
-      <?= tampilkanBiodata($fieldConfig, $biodata) ?>
+        <?php
+        if (!empty($biodata)) {
+          echo tampilkanBiodata($fieldConfig, $biodata);
+        } else {
+          echo "<p>Belum ada data biodata yang disimpan.</p>";
+        }
+        ?>
     </section>
 
     <?php
