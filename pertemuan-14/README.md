@@ -6,4 +6,5 @@
 <li>salin kode proses update ke delete php </li>
 <li>menghapus beberapa kodingan</li>
 <li>menambah parameter cid untuk link read php</li>
+<li>memperbaiki delete php dengan parameter cid</li>
 </ol>
