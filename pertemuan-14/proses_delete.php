@@ -16,7 +16,7 @@
    }
 
  
-  $stmt = mysqli_prepare($conn, "DELETE FROM tbl_tamu"
+  $stmt = mysqli_prepare($conn, "DELETE FROM tbl_tamu
                                 WHERE cid = ?");
   if (!$stmt) {
     $_SESSION['flash_error'] = 'Terjadi kesalahan sistem (prepare gagal).';
