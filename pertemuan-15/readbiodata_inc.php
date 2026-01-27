@@ -14,7 +14,7 @@ $fieldBiodata = [
       "nama_adik" => ["label" => "Nama Adik:", "suffix" => ""],
     ];
 
-$sql = "SELECT * FROM tbl_biodata ORDER BY cid DESC";
+$sql = "SELECT * FROM tbl_biodata ORDER BY id DESC";
 $q = mysqli_query($conn, $sql);
 if (!$q) {
   echo "<p>Gagal membaca data tamu: " . 
