@@ -23,18 +23,18 @@ if (!$q) {
   echo "<p>Belum ada data tamu yang tersimpan.</p>";
 } else {
   while ($row = mysqli_fetch_assoc($q)) {
-    $arrBiodata = [
-        "nim" => $row['cnim'],
-        "nama_lengkap" => $row['cnama_lengkap'],
-        "tempat_lahir" => $row['ctempat_lahir'],
-        "tanggal_lahir" => $row['ctanggal_lahir'],
-        "hobi" => $row['chobi'],
-        "pasangan" => $row['cpasangan'],
-        "pekerjaan" => $row['cpekerjaan'],
-        "nama_orang_tua" => $row['cnama_orang_tua'],
-        "nama_kakak" => $row['cnama_kakak'],
-        "nama_adik" => $row['cnama_adik'],
-    ];
+   $arrBiodata = [
+  "nim" => $row['nim'],
+  "nama_lengkap" => $row['nama_lengkap'],
+  "tempat_lahir" => $row['tempat_lahir'],
+  "tanggal_lahir" => $row['tanggal_lahir'],
+  "hobi" => $row['hobi'],
+  "pasangan" => $row['pasangan'],
+  "pekerjaan" => $row['pekerjaan'],
+  "nama_orang_tua" => $row['nama_orang_tua'],
+  "nama_kakak" => $row['nama_kakak'],
+  "nama_adik" => $row['nama_adik'],
+];
     echo tampilkanBiodata($fieldBiodata, $arrBiodata);
   }
 }
