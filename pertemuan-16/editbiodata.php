@@ -56,34 +56,36 @@
     redirect_ke('readbiodata.php');
   }
 
-  #Nilai awal (prefill form)
-    $nim = $row['cnim'] ?? '';
-    $namalengkap = $row['cnama_lengkap'] ?? '';
-    $tempatlahir = $row['ctempat_lahir'] ?? '';
-    $tanggallahir = $row['ctanggal_lahir'] ?? '';
-    $hobi = $row['chobi'] ?? '';
-    $pasangan = $row['cpasangan'] ?? '';
-    $pekerjaan = $row['cpekerjaan'] ?? '';
-    $namaOrangTua = $row['cnama_orang_tua'] ?? '';
-    $namaKakak = $row['cnama_kakak'] ?? '';
-    $namaAdik = $row['cnama_adik'] ?? '';
+  # Nilai awal (prefill form dari database)
+$kodedos  = $row['kodedos'] ?? '';
+$nama     = $row['nama'] ?? '';
+$alamat   = $row['alamat'] ?? '';
+$tanggal  = $row['tanggal'] ?? '';
+$jja      = $row['jja'] ?? '';
+$prodi    = $row['prodi'] ?? '';
+$nohp     = $row['nohp'] ?? '';
+$pasangan = $row['pasangan'] ?? '';
+$anak     = $row['anak'] ?? '';
+$ilmu     = $row['ilmu'] ?? '';
 
-  #Ambil error dan nilai old input kalau ada
-  $flash_error = $_SESSION['flash_error'] ?? '';
-  $old = $_SESSION['old'] ?? [];
-  unset($_SESSION['flash_error'], $_SESSION['old']);
-  if (!empty($old)) {
-    $nim = $old['nim'] ?? $nim;
-    $namalengkap = $old['nama_lengkap'] ?? $nama;
-    $tempatlahir = $old['tempat_lahir'] ?? $tempatlahir;
-    $tanggallahir = $old['tanggal_lahir'] ?? $tanggallahir;
-    $hobi = $old['hobi'] ?? $hobi;
+# Ambil error dan old input jika ada
+$flash_error = $_SESSION['flash_error'] ?? '';
+$old = $_SESSION['old'] ?? [];
+
+unset($_SESSION['flash_error'], $_SESSION['old']);
+
+if (!empty($old)) {
+    $kodedos  = $old['kodedos'] ?? $kodedos;
+    $nama     = $old['nama'] ?? $nama;
+    $alamat   = $old['alamat'] ?? $alamat;
+    $tanggal  = $old['tanggal'] ?? $tanggal;
+    $jja      = $old['jja'] ?? $jja;
+    $prodi    = $old['prodi'] ?? $prodi;
+    $nohp     = $old['nohp'] ?? $nohp;
     $pasangan = $old['pasangan'] ?? $pasangan;
-    $pekerjaan = $old['pekerjaan'] ?? $pekerjaan;
-    $namaOrangTua = $old['nama_orang_tua'] ?? $namaOrangTua;
-    $namaKakak = $old['nama_kakak'] ?? $namaKakak;
-    $namaAdik = $old['nama_adik'] ?? $namaAdik;
-  }
+    $anak     = $old['anak'] ?? $anak;
+    $ilmu     = $old['ilmu'] ?? $ilmu;
+}
 ?>
 
 <!DOCTYPE html>
