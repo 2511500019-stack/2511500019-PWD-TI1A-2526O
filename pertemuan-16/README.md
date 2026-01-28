@@ -11,5 +11,6 @@ Hari ini,Rabu 28 januari 2026 saya mengerjakan ujian :
 <li>prefill form dari database memperbaiki kode ini</li>
 <li>memperbaiki kode jika eror</li>
 <li>menambahkan coddinagn di bio data edit lable input</li>
+<li>membuat file baru yaitu edit proded bio data dosnen</li>
 
 </ol>
