@@ -124,65 +124,65 @@ if (!empty($old)) {
 
           <input type="text" name="cid" value="<?= (int)$cid; ?>">
 
-          <label for="txtNim"><span>NIM:</span>
-            <input type="text" id="txtNim" name="txtNimEd" 
-              placeholder="Masukkan NIM" required autocomplete="nim"
-              value="<?= !empty($nim) ? $nim : '' ?>">
-          </label>
+         <label for="txtKodeDos"><span>Kode Dosen:</span>
+  <input type="text" id="txtKodeDos" name="txtKodeDos"
+    placeholder="Masukkan Kode Dosen" required
+    value="<?= !empty($kodedos) ? $kodedos : '' ?>">
+</label>
 
-            <label for="txtNamaLengkap"><span>Nama Lengkap:</span>
-                <input type="text" id="txtNamaLengkap" name="txtNamaLengkapEd" 
-                placeholder="Masukkan Nama Lengkap" required autocomplete="name"
-                value="<?= !empty($namalengkap) ? $namalengkap : '' ?>">
-            </label>
+<label for="txtNmDosen"><span>Nama Dosen:</span>
+  <input type="text" id="txtNmDosen" name="txtNmDosen"
+    placeholder="Masukkan Nama Dosen" required
+    value="<?= !empty($nama) ? $nama : '' ?>">
+</label>
 
-            <label for="txtTempatLahir"><span>Tempat Lahir:</span>
-                <input type="text" id="txtTempatLahir" name="txtTempatLahirEd" 
-                placeholder="Masukkan Tempat Lahir" required
-                value="<?= !empty($tempatlahir) ? $tempatlahir : '' ?>">
-            </label>
+<label for="txtAlRmh"><span>Alamat:</span>
+  <input type="text" id="txtAlRmh" name="txtAlRmh"
+    placeholder="Masukkan Alamat" required
+    value="<?= !empty($alamat) ? $alamat : '' ?>">
+</label>
 
-            <label for="txtTanggalLahir"><span>Tanggal Lahir:</span>
-                <input type="date" id="txtTanggalLahir" name="txtTanggalLahirEd" 
-                placeholder="Masukkan Tanggal Lahir" required
-                value="<?= !empty($tanggallahir) ? $tanggallahir : '' ?>">
-            </label>
+<label for="txtTglDosen"><span>Tanggal Lahir:</span>
+  <input type="date" id="txtTglDosen" name="txtTglDosen"
+    required
+    value="<?= !empty($tanggal) ? $tanggal : '' ?>">
+</label>
 
-            <label for="txtHobi"><span>Hobi:</span>
-                <input type="text" id="txtHobi" name="txtHobiEd" 
-                placeholder="Masukkan Hobi" required
-                value="<?= !empty($hobi) ? $hobi : '' ?>">
-            </label>
+<label for="txtJJA"><span>JJA:</span>
+  <input type="text" id="txtJJA" name="txtJJA"
+    placeholder="Masukkan JJA" required
+    value="<?= !empty($jja) ? $jja : '' ?>">
+</label>
 
-            <label for="txtPasangan"><span>Pasangan:</span>
-                <input type="text" id="txtPasangan" name="txtPasanganEd" 
-                placeholder="Masukkan Pasangan" required
-                value="<?= !empty($pasangan) ? $pasangan : '' ?>">
-            </label>
+<label for="txtProdi"><span>Prodi:</span>
+  <input type="text" id="txtProdi" name="txtProdi"
+    placeholder="Masukkan Prodi" required
+    value="<?= !empty($prodi) ? $prodi : '' ?>">
+</label>
 
-            <label for="txtKerja"><span>Pekerjaan:</span>
-                <input type="text" id="txtKerja" name="txtKerjaEd" 
-                placeholder="Masukkan Pekerjaan" required
-                value="<?= !empty($pekerjaan) ? $pekerjaan : '' ?>">
-            </label>
+<label for="txtNoHP"><span>No HP:</span>
+  <input type="text" id="txtNoHP" name="txtNoHP"
+    placeholder="Masukkan No HP" required
+    value="<?= !empty($nohp) ? $nohp : '' ?>">
+</label>
 
-            <label for="txtNamaOrangTua"><span>Nama Orang Tua:</span>
-                <input type="text" id="txtNamaOrangTua" name="txtNamaOrangTuaEd" 
-                placeholder="Masukkan Nama Orang Tua" required
-                value="<?= !empty($namaOrangTua) ? $namaOrangTua : '' ?>">
-            </label>
+<label for="txNamaPasangan"><span>Pasangan:</span>
+  <input type="text" id="txNamaPasangan" name="txNamaPasangan"
+    placeholder="Masukkan Nama Pasangan"
+    value="<?= !empty($pasangan) ? $pasangan : '' ?>">
+</label>
 
-            <label for="txtNamaKakak"><span>Nama Kakak:</span>
-                <input type="text" id="txtNamaKakak" name="txtNamaKakakEd" 
-                placeholder="Masukkan Nama Kakak" required
-                value="<?= !empty($namaKakak) ? $namaKakak : '' ?>">
-            </label>
+<label for="txtNmAnak"><span>Jumlah Anak:</span>
+  <input type="number" id="txtNmAnak" name="txtNmAnak"
+    placeholder="Masukkan Jumlah Anak"
+    value="<?= !empty($anak) ? $anak : '' ?>">
+</label>
 
-            <label for="txtNamaAdik"><span>Nama Adik:</span>
-                <input type="text" id="txtNamaAdik" name="txtNamaAdikEd" 
-                placeholder="Masukkan Nama Adik" required
-                value="<?= !empty($namaAdik) ? $namaAdik : '' ?>">
-            </label>
+<label for="txtBidangIlmu"><span>Bidang Ilmu:</span>
+  <input type="text" id="txtBidangIlmu" name="txtBidangIlmu"
+    placeholder="Masukkan Bidang Ilmu" required
+    value="<?= !empty($ilmu) ? $ilmu : '' ?>">
+</label>
 
           <button type="submit">Kirim</button>
           <button type="reset">Batal</button>
