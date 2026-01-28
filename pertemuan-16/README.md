@@ -15,4 +15,11 @@ Hari ini,Rabu 28 januari 2026 saya mengerjakan ujian :
 <li>dan menambahkan beberapa kodingan yang di ambil dari proses php dan di ubah sedikit</li>
 <li>membuat file baru yaitu proses updat bio data dosen</li>
 <li>menambahkan kodingan dari beberapa kodingan lama lalu di edit sedikit</li>
+<li>meng update read php sedikit yang saya isi jika berhasil Setelah Anda:
+
+Edit data dosen
+
+Klik Kirim
+
+Berhasil → muncul:</li>
 </ol>
