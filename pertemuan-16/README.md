@@ -24,4 +24,8 @@ Klik Kirim
 Berhasil → muncul:</li>
 <li> menambahkan file baru yaitu read bio data php</li>
 <li>menambah ato mengubah kodingan pada read bio </li>
+<li/>mengubah read bio dan proses delete pada sehingga akan menjadi ✔ Klik Hapus → muncul konfirmasi
+✔ Klik OK → data terhapus
+✔ Klik Cancel → batal
+✔ Ada pesan sukses/gagal</li>
 </ol>
