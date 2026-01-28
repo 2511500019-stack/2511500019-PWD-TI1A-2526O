@@ -9,5 +9,6 @@ Hari ini,Rabu 28 januari 2026 saya mengerjakan ujian :
 <li>menambahkan file baru yaitu file edit bio data php</li>
 <li>menambahkan kodingan dan memperbaiki kodingan</li>
 <li>prefill form dari database memperbaiki kode ini</li>
+<li>memperbaiki kode jika eror</li>
 
 </ol>
