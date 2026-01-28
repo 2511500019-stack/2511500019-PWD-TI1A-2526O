@@ -14,5 +14,5 @@ Hari ini,Rabu 28 januari 2026 saya mengerjakan ujian :
 <li>membuat file baru yaitu edit proded bio data dosnen</li>
 <li>dan menambahkan beberapa kodingan yang di ambil dari proses php dan di ubah sedikit</li>
 <li>membuat file baru yaitu proses updat bio data dosen</li>
-
+<li>menambahkan kodingan dari beberapa kodingan lama lalu di edit sedikit</li>
 </ol>
