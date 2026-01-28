@@ -5,18 +5,20 @@
 
   $sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
   $q = mysqli_query($conn, $sql);
-  if (!$q) {
-    die("Query error: " . mysqli_error($conn));
-  }
-?>
+  <?php
+session_start();
+include 'koneksi.php';
 
-<?php
-  $flash_sukses = $_SESSION['flash_sukses'] ?? ''; #jika query sukses
-  $flash_error  = $_SESSION['flash_error'] ?? ''; #jika ada error
-  #bersihkan session ini
-  unset($_SESSION['flash_sukses'], $_SESSION['flash_error']); 
-?>
+if(isset($_SESSION['flash_sukses'])){
+    echo "<div style='color:green'>".$_SESSION['flash_sukses']."</div>";
+    unset($_SESSION['flash_sukses']);
+}
 
+if(isset($_SESSION['flash_error'])){
+    echo "<div style='color:red'>".$_SESSION['flash_error']."</div>";
+    unset($_SESSION['flash_error']);
+}
+?>
 <?php if (!empty($flash_sukses)): ?>
         <div style="padding:10px; margin-bottom:10px; 
           background:#d4edda; color:#155724; border-radius:6px;">
