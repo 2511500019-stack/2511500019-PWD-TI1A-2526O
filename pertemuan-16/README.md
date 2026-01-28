@@ -12,5 +12,6 @@ Hari ini,Rabu 28 januari 2026 saya mengerjakan ujian :
 <li>memperbaiki kode jika eror</li>
 <li>menambahkan coddinagn di bio data edit lable input</li>
 <li>membuat file baru yaitu edit proded bio data dosnen</li>
+<li>dan menambahkan beberapa kodingan yang di ambil dari proses php dan di ubah sedikit</li>
 
 </ol>
